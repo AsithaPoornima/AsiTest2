@@ -1,5 +1,5 @@
 package selenium;
-
+/*
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,9 +10,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
+*/
 public class SeleniumUsingTestNG {
-	public WebDriver driver;
+	/*public WebDriver driver;
 
 	@BeforeTest
 	public void setProperties() {
@@ -24,8 +24,8 @@ public class SeleniumUsingTestNG {
 		String actualTitle = driver.getTitle();
 		String expectedTitle = ("Facebook – log in or sign up");
 		Assert.assertEquals(actualTitle, expectedTitle);
-	}
-
+	}*/
+/*
 	@Test(priority = 0)
 	public void loginToFacebook() {
 
@@ -36,8 +36,8 @@ public class SeleniumUsingTestNG {
 		WebElement loginButton = driver.findElement(By.xpath("//input[@id='u_0_b']"));
 		loginButton.click();
 
-	}
-
+	}*/
+/*
 	@Test(priority = 1)
 	public void searchProfile() {
 
@@ -53,7 +53,7 @@ public class SeleniumUsingTestNG {
 		WebElement searchButton = driver.findElement(By.xpath("//i[@class='_585_']"));
 		searchButton.click();
 
-	}
+	}*/
 
 	/*
 	 * @AfterTest public void endSession() { driver.quit();
@@ -61,4 +61,8 @@ public class SeleniumUsingTestNG {
 	 * }
 	 */
 	//add comment changes to check git function
+
+
+
 }
+
